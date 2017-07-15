@@ -9,3 +9,5 @@ print(f"Well {shop} is a nice shop")
 name = f"What is your name?"
 print(name)
 print(f"I said {name}")
+print("hello there i wish a good day for you", end=" hello")
+print(" there again")
