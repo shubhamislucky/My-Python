@@ -8,3 +8,4 @@ print(f"Well {shop} is a nice shop")
 
 name = f"What is your name?"
 print(name)
+print(f"I said {name}")
