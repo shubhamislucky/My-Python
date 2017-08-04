@@ -29,7 +29,7 @@ city["Gurgaon"] = 45000
 city["Manali"] = 32000
 print(city)
 
-#we can modify our dictionary as we go
+# we can modify our dictionary as we go
 city["Mumbai"] = 81000
 print(city)
 
