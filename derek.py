@@ -13,3 +13,6 @@ print(mydict["first"])
 hello = "my name is shubham"
 new = hello.strip().split()
 print(new)
+
+for _ in range(10):
+    print("what's up")
