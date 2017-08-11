@@ -100,5 +100,5 @@ print(colors2)
 # intersection(set)                ex:- x.intersection(y)
 # isdisjoint(set)                  returns true if two sets have null intersection
 # issubset(set)                    ex:- x.issubset(y)
-# superset(set)                    ex:- x.issuperset(y)
-# pop()                            ex:-  x.pop() 
+# issuperset(set)                    ex:- x.issuperset(y)
+# pop()                            ex:-  x.pop()
