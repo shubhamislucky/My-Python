@@ -57,6 +57,19 @@ for values in city.values():
     print(values)
 
 # now let's combine both
+# there are three ways
+
+# first way
+print("\ncity " + " population")
+for key,value in city.items():
+    print(f"{key} : {value}")
+
+#second way
+print("\ncity " + " population")
+for item in city:
+    print(f"{item} : {city[item]}")
+
+#third way
 print("\ncity " + " population")
 for keys,values in zip(city.keys(),city.values()):
-    print(keys, " ", values)
+    print(f"{key} : {values}")
