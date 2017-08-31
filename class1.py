@@ -15,6 +15,7 @@ class Dog():
 
 # Making an Instance from a class
 my_dog = Dog('Julie', 5)
+print(my_dog.__doc__)
 
 # Accessing attributes
 print("My dog's name is " + my_dog.name + ".")
