@@ -21,7 +21,7 @@ with open('../../hello.txt') as f:
     print(contents.rstrip())
 
 # one more way
-with open('/Users/shubhamislucky/Desktop/hello.txt') as f:
+with open('/Users/shubhamislucky/Desktop/coding/My-Python/test.txt') as f:
     contents = f.read()
     print(contents.rstrip())
 
@@ -50,4 +50,4 @@ pi_string = ''
 for line in lines:
     pi_string += line.strip()
 
-print(pi_string)
+print(pi_string[:52] + "...")
