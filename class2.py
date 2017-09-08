@@ -33,18 +33,19 @@ class Car():
         self.odometer_reading += increment
 
 
-my_new_car = Car('audi', 'a4', 2016)
-print(my_new_car.get_descriptive_name())
-my_new_car.read_odometer()
+if __name__ == "__main__":
+    my_new_car = Car('audi', 'a4', 2016)
+    print(my_new_car.get_descriptive_name())
+    my_new_car.read_odometer()
 
-# Modifying attribute values
-my_new_car.odometer_reading = 100
-my_new_car.read_odometer()
+    # Modifying attribute values
+    my_new_car.odometer_reading = 100
+    my_new_car.read_odometer()
 
-# Modifying attribute's value through a method
-my_new_car.update_odometer(130)
-my_new_car.read_odometer()
+    # Modifying attribute's value through a method
+    my_new_car.update_odometer(130)
+    my_new_car.read_odometer()
 
-# Incrementing odometers value by function
-my_new_car.increment_odometer(50)
-my_new_car.read_odometer()
+    # Incrementing odometers value by function
+    my_new_car.increment_odometer(50)
+    my_new_car.read_odometer()
