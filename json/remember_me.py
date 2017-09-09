@@ -3,6 +3,7 @@
 
 import json
 
+
 def get_stored_username():
     """ Get stored username if available """
     filename = 'username.json'
@@ -14,6 +15,7 @@ def get_stored_username():
     else:
         return username
 
+
 def get_new_username():
     """ Prompt for a new username """
     filename = 'username.json'
@@ -21,6 +23,7 @@ def get_new_username():
     with open(filename, 'w') as f:
         json.dump(username, f)
     return username
+
 
 def greet_user():
     """ Greet the user by name """
